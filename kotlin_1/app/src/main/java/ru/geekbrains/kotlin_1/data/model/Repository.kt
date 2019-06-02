@@ -3,10 +3,7 @@ package ru.geekbrains.kotlin_1.data
 import ru.geekbrains.kotlin_1.data.model.Note
 
 object Repository {
-    val notes: List<Note>
-
-    init {
-        notes = listOf(
+    val notes: List<Note>  = listOf(
             Note("My first note",
                 "Kotlin is short but concise language",
                 0xfff06292.toInt()),
@@ -27,7 +24,5 @@ object Repository {
                 0xffffeb3b.toInt()),
             Note("My first note",
                 "Kotlin is short but concise language",
-                0xffff6e40.toInt())
-        )
-    }
+                0xffff6e40.toInt()))
 }

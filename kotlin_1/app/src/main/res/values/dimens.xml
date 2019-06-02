@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textview_forever_margin_end">8dp</dimen>
+    <dimen name="textview_forever_margin_start">8dp</dimen>
+    <dimen name="textview_forever_margin_top">8dp</dimen>
+    <dimen name="textview2_margin">8dp</dimen>
+</resources>
